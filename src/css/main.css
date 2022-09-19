@@ -1,0 +1,38 @@
+body{
+    font-family:'Roboto', sans-serif;
+}
+
+#container{
+    width: 1440px;
+}
+#img{
+    position:absolute;
+    left:230px;
+    top:96px;
+}
+img{
+    width:505px;
+    height: 330px;
+}
+#content{
+    position: absolute;
+    width: 380px;
+    height: 250px;
+    top:136px;
+    left:830px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+#title{
+    font-size:42px;
+    font-weight: 700;
+}
+#button{
+    width:128px ;
+    height:48px ;
+    border-radius:32px;
+    background-color: #e4c1ae;
+    color:#ffffff;
+    border:0;
+}
