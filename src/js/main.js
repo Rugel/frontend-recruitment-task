@@ -1,8 +1,8 @@
-import {container} from './modules/container.js';
+import {module} from './modules/module.js';
 import {image} from './modules/image.js';
 import {content} from './modules/content.js';
 
 
 
-container.innerHTML=image;
-container.innerHTML+=content;
+module.innerHTML=image;
+module.innerHTML+=content;

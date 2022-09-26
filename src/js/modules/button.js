@@ -1,1 +1,1 @@
-export const button='<button id="button">Button</button>'
+export const button='<button class="button">Button</button>'
