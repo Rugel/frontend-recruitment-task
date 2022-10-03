@@ -11,30 +11,49 @@ body{
     display: flex;
     justify-content:center;
     align-items: center;
+    padding-top: 5%;
+    gap:5%;
     
 }
 
 img{
     width:505px;
     height: 330px;
+
 }
 .content{
     width: 380px;
     height: 250px;
     font-weight: 300;
     line-height: 24px;
-    margin:10%;
 }
 
 .title{
     font-size:42px;
     font-weight: 700;
 }
-.button{
+#button{
     width:128px ;
     height:48px ;
     border-radius:32px;
     background-color: #e4c1ae;
     color:#ffffff;
     border:0;
+}
+#popup{
+    position: absolute;
+    background-color: grey;
+    width: 920px;
+    height: 210px;
+    top:375px;
+    display: none;
+}
+.alert-cont{
+    padding-left: 3em;
+    font-size: 16px;
+    font-weight: 600;
+}
+.alert-title{
+    font-size: 42px;
+    font-weight: 700;
 }
