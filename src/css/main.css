@@ -32,21 +32,24 @@ img{
     font-size:42px;
     font-weight: 700;
 }
-#button{
+.button{
     width:128px ;
     height:48px ;
     border-radius:32px;
     background-color: #e4c1ae;
     color:#ffffff;
     border:0;
+    cursor: pointer;
+    z-index: 99999999;
 }
-#popup{
+.popup{
     position: absolute;
-    background-color: grey;
+    background-color: #ffffff;
     width: 920px;
     height: 210px;
     top:375px;
     display: none;
+    z-index: 1;
 }
 .alert-cont{
     padding-left: 3em;
@@ -56,4 +59,30 @@ img{
 .alert-title{
     font-size: 42px;
     font-weight: 700;
+}
+.close{
+    position: absolute;
+    right: 46px;
+    top: 46px;
+    cursor: pointer;
+}
+.reset{
+    margin-left: 2em;
+    border-radius: 16px;
+    padding: 5px;
+    cursor: pointer;
+    display: none;
+    font-weight: 900;
+    background-color: lightgrey;
+}
+.overlay{
+    position: fixed;
+    background: #121212;
+    opacity: 0.5;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index:-0.5;
+    display:none;
 }
